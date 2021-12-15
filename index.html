@@ -7,42 +7,72 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-inverse">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">WebSiteName</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Footnotes</a></li>
-          <li><a href="#">Apply Now</a></li>
+        <a class="navbar-brand" href="">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Sponsors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Resources</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Resources</a>
+            </li>
+            <!--
+            <li class="nav-item">
+              <a class="nav-link" href="">Schedule</a>
+            </li>
+            -->
 
-          <!--Other Pages That Need Updating-->
-          <!--<li><a href="#">Schedule</a></li>>-->        
-        </ul>
+          </ul>
+        </div>
       </div>
     </nav>
 
     <!--Logo with Hackathon Name-->
     <div class="container-fluid">
-      <div class="jumbotron">
+      <div class="mt-4 p-5 bg-dark text-white rounded">
         <h1>City Hacks</h1>
         <p>Hack it Together</p>
         <img src="assets/ACM_Logo.png" class="img-circle" alt="Cinque Terre" width="150" height="150">
       </div>
-    </div>
 
-    <!--Sponsors-->
-    <div class="container">
+      <!--Dates-->
+    <div class="container p-5 my-5 bg-dark text-white border">
+      <div class="col-sm-6">
+        <h2>Join us for a weekend of hacking</h2>
+        <p>February 25-27, 2022</p>
+        </div>
+        <div class="col-sm-6">
+          <!--Button to Register, point Button to Form-->
+          <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">Apply Now</a>
+      </div>
+    </div>
+    <div class="container p-5 my-5 bg-dark text-white border">
       <h2>Sponsors</h2>
       <div class="row">
         <div class="col-sm-4">
