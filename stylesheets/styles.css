@@ -44,3 +44,9 @@ a:active {
              -7px 7px 33px #ffffff;
 }
 
+#FAQS
+{
+  display:flex;
+  justify-content: center;
+  
+}
