@@ -21,7 +21,7 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-        <span class="navbar-toggler-icon"></span>
+        <span class="" role="button"><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav me-auto">
@@ -38,85 +38,125 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html#FAQS">FAQ's</a>
           </li>
-              <li class="nav-item">
-                <a class="nav-link" href="schedule.html">Schedule</a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.html">Schedule</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
   <!--End of Navigation Bar-->
-  <span><br><br></span> 
   <!--Main Content-->
-  <div class="col-sm-10 card">
-    <h1>Learning Resources to help you at City Hacks</h1>
-    <div class="container-fluid bg-white text- link-dark">
-      <h2>Git and Github Courses</h2>
-      <p> Git is a software tool to keep track of changes in a file. It also enables share and collaborate on projects with others.</p> 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/hwP7WQkmECE" title="YouTube video player"
+  <span><br></span>
+  <div class="resources-container">
+    <h1 class="col-sm-8 resources-container card">Learning Resources to help you at City Hacks</h1>
+    <span><br></span>
+    <div class="container-fluid col-sm-8 card link-dark">
+      <h2 class="resources-container">Git and Github Courses</h2>
+      <p> Git is a software tool to keep track of changes in a file. It also enables share and collaborate on projects
+        with others.</p>
+      <iframe class="container-sm-4" width="400" height="300" src="https://www.youtube.com/embed/hwP7WQkmECE" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
       <ol>
-        <li><a href="https://www.youtube.com/watch?v=hwP7WQkmECE">What is Git &amp Github Explained in 100 secs </a>(Quick Video to show you what to expect)</li>
-        <li><a href="#git-github-crash-course-for-beginners">Git &amp; GitHub Crash Course For Beginners</a> (Brad Traversy)</li>
-        <li><a href="#git-and-github-for-beginners-crash-course">Git &amp GitHub for Beginners - Crash Course</a> (freeCodeCamp)</li>
+        <li><a href="https://www.youtube.com/watch?v=hwP7WQkmECE">What is Git &amp Github Explained in 100 secs
+          </a>(Quick Video to show you what to expect)</li>
+        <li><a href="#git-github-crash-course-for-beginners">Git &amp; GitHub Crash Course For Beginners</a> (Brad
+          Traversy)</li>
+        <li><a href="#git-and-github-for-beginners-crash-course">Git &amp GitHub for Beginners - Crash Course</a>
+          (freeCodeCamp)</li>
       </ol>
-      <div>
-        <h1>Web Development Resources</h1>
-        <h2 id="html-courses-7-">HTML Courses</h2>
-        <p>HTML is a markup langugage used to define the basic contents of a website you might make. For example, with HTML you can create, paragraphs, headings and insert images and videos. The layout of this site was created in HTML!. Hit Ctrl,(on OSX Command)+Shift+I to see this site's HTML!</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ok-plXXHlWw" title="YouTube video player"
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-        <ol>
-          <li><a href="https://youtu.be/UB1O30fR-EE">HTML Crash Course For Absolute Beginners - Traversy Media</a> (Video)</li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer Network (MDN) HTML</a> (Tutorial/Reference Guide)</li>
-          <li><a href="https://www.w3schools.com/html/">W3C Schools HTML</a> (Tutorial/Reference Guide) </li>
-        </ol>
+    </div>
+    <span><br></span>
+      <div class="container-fluid col-sm-8 link-dark card">
+        <h1 class="resources-container">Web Development Resources</h1>
+        <span><br></span>
+        <div class="link-dark">
+          <h2>HTML Courses</h2>
+          <p>HTML is a markup langugage used to define the basic contents of a website you might make. For example, with
+            HTML you can create, paragraphs, headings and insert images and videos. The layout of this site was created in
+            HTML!. Hit Ctrl,(on OSX Command)+Shift+I to see this site's HTML!</p>
+          <iframe class="container-sm-4" width="400" height="300" src="https://www.youtube.com/embed/ok-plXXHlWw" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <ol>
+            <li><a href="https://youtu.be/UB1O30fR-EE">HTML Crash Course For Absolute Beginners - Traversy Media</a>
+              (Video)</li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer Network (MDN) HTML</a>
+              (Tutorial/Reference Guide)</li>
+            <li><a href="https://www.w3schools.com/html/">W3C Schools HTML</a> (Tutorial/Reference Guide) </li>
+          </ol>
+      </div> 
+      <div class="container-sm-8 link-dark">
         <h2>CSS Courses</h2>
-        <p>CSS is a style sheet language used to define the style of a website and the HTML elements on the site. Some of the things that you can do with HTML is that you can define the color of the site and reposition the layout of elements on the site</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/OEV8gMkCHXQ" title="YouTube video player"
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        <p>CSS is a style sheet language used to define the style of a website and the HTML elements on the site. Some
+          of the things that you can do with HTML is that you can define the color of the site and reposition the layout
+          of elements on the site</p>
+        <iframe class="container-sm-4" width="400" height="300" src="https://www.youtube.com/embed/OEV8gMkCHXQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
         <ol>
-          <li><a href="https://youtu.be/yfoY53QXEnI">CSS Crash Course For Absolute Beginners (Traversy Media)</a> (Video)</li> 
+          <li><a href="https://youtu.be/yfoY53QXEnI">CSS Crash Course For Absolute Beginners (Traversy Media)</a>
+            (Video)</li>
           <li><a href="#css-basics">CSS Basics W3C Schools</a> (Tutorial/Reference Guide)</li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">Mozilla Developer Network (MDN) CSS</a> (Tutorial/Reference Guide)</li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">Mozilla
+              Developer Network (MDN) CSS</a> (Tutorial/Reference Guide)</li>
         </ol>
+      </div>
+      <div class="container-fluid link-dark">
         <h3>Bootstrap</h3>
-        <p>Bootstrap is a free and open-source CSS framework. It has CSS-based templates for text, forms, buttons and navigation bars. Its really cool and helps speed up your development process towards designing a website</p>
+        <p>Bootstrap is a free and open-source CSS framework. It has CSS-based templates for text, forms, buttons and
+          navigation bars. Its really cool and helps speed up your development process towards designing a website</p>
         <ol>
-          <li><a href="https://www.w3schools.com/bootstrap5/">W3C Schools Bootstrap 5</a> (Tutorial/Reference Guide)</li>
-          <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5 Documentation</a> (Tutorial/Reference Guide)</li>
+          <li><a href="https://www.w3schools.com/bootstrap5/">W3C Schools Bootstrap 5</a> (Tutorial/Reference Guide)
+          </li>
+          <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5 Documentation</a>
+            (Tutorial/Reference Guide)</li>
         </ol>
+      </div>
+      <div class="container-fluid link-dark">
         <h2>JavaScript Courses</h2>
         <a href="https://www.freecodecamp.org/news/what-is-javascript-definition-of-js/">What is JavaScript?</a>
         <ol>
-          <li><a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">JavaScript Crash Course For Absolute Beginners (Traversy Media)</a> (Video)</li>
+          <li><a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">JavaScript Crash Course For Absolute Beginners
+              (Traversy Media)</a> (Video)</li>
           <li><a href="https://www.w3schools.com/js/">W3C Schools</a> (Tutorial/Reference Guide)</li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript Basics MDN</a> (Tutorial/Reference Guide)</li>
+          <li><a
+              href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript
+              Basics MDN</a> (Tutorial/Reference Guide)</li>
         </ol>
+      </div>
+      </div>  
+      <span><br></span>
+      <div class="container-fluid col-sm-8 link-dark card">
+        <h1 class="resources-container"> Data Science Resources</h1>
+        <h2>Data Analysis</h2>
+        <ol>
+          <li><a id="data_analysis_python"
+              href="https://www.freecodecamp.org/news/exploratory-data-analysis-with-numpy-pandas-matplotlib-seaborn/">Data
+              Analysis with Python</a>
+            How to Visualize Data with Python, Numpy, Pandas, Matplotlib & Seaborn Tutorial (Cheatsheet)</li>
+        </ol>
+        <h2>Machine Learing</h2>
+        <ol>
+          <li><a href="https://www.kaggle.com/learn">Kaggle Learning Courses</a>
+            (Introduction to Applied Machine Learning with Python)</li>
+          <li>
+            <a
+              href="https://towardsdatascience.com/11-most-common-machine-learning-algorithms-explained-in-a-nutshell-cc6e98df93be">Most
+              Common ML Algorithms</a>
+            (Get up to speed with most common ML models)
+          </li>
+          <li><a
+              href="https://www.educative.io/blog/scikit-learn-cheat-sheet-classification-regression-methods">Implement
+              Basic ML algorithms</a>
+            (Python Sci-Kit Learn Library)</li>
+          <li><a href="https://www.kaggle.com/learn">Kaggle Learning Courses</a>
+            (Introduction to Applied Machine Learning with Python)</li>
+        </ol>
+      </div>
     </div>
-    <div>
-      <h1> Data Science Resources</h1>
-      <h2>Data Analysis</h2>
-      <ol>
-        <li><a id="data_analysis_python" href="https://www.freecodecamp.org/news/exploratory-data-analysis-with-numpy-pandas-matplotlib-seaborn/">Data Analysis with Python</a>
-        How to Visualize Data with Python, Numpy, Pandas, Matplotlib & Seaborn Tutorial (Cheatsheet)</li>
-      </ol>
-      <h2>Machine Learing</h2>
-      <ol>
-        <li><a href="https://www.kaggle.com/learn">Kaggle Learning Courses</a>
-          (Introduction to Applied Machine Learning with Python)</li>
-        <li>
-          <a href="https://towardsdatascience.com/11-most-common-machine-learning-algorithms-explained-in-a-nutshell-cc6e98df93be">Most Common ML Algorithms</a>
-          (Get up to speed with most common ML models)
-        </li>
-        <li><a href="https://www.educative.io/blog/scikit-learn-cheat-sheet-classification-regression-methods">Implement Basic ML algorithms</a>
-          (Python Sci-Kit Learn Library)</li>
-        <li><a href="https://www.kaggle.com/learn">Kaggle Learning Courses</a>
-          (Introduction to Applied Machine Learning with Python)</li>
-      </ol>
-    </div>  
   </div>
 </body>
