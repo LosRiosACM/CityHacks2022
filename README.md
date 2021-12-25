@@ -12,3 +12,7 @@ The website is coded in HTML5 CSS and Bootstrap5. You can use Javascript to do m
 If you want to use this site for your future hackathons please fork this repository.
 If you need help to code this website out please look at the resources page and under Web Development Resources for some tutorials to help you understand the code.
 </p>
+
+<h3>
+    Contact/Connect with me for some questions/guidance/networking <a href="https://www.linkedin.com/in/ishanmeher/">(My Linkedin which won't change-I hope)</a>
+</h3>
