@@ -29,7 +29,7 @@ The cool accordion and navbar that you see are made with Bootstrap5.
     You can use the id of the div you want to redirect to.
     For example, if you want to redirect to the div with id "about" you would use the following code:
     <code>
-        <a href="#about">About</a>
+        a href="#about">About a
     </code>
 </p>
 
