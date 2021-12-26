@@ -16,3 +16,8 @@ If you need help to code this website out please look at the resources page and 
 <h3>
     Contact/Connect with me for some questions/guidance/networking <a href="https://www.linkedin.com/in/ishanmeher/">(My Linkedin which won't change-I hope)</a>
 </h3>
+
+<p>
+The nice looking cards (rounded divs with a drop shadow) are designed using this CSS generator:
+<a href="https://neumorphism.io/#d9dcde">https://neumorphism.io/#d9dcde</a>
+</p>
