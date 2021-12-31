@@ -92,8 +92,11 @@ box-shadow:  -9px 9px 38px #e0e0e0,
   text-align: center;
 }
 
-@media (max-width: 576px) { 
-  #mlh-trust-badge{
+
+
+ @media (max-width: 576px) { 
+  #mlh-trust-div{
+    
    opacity:0;
    display:none;
  }
