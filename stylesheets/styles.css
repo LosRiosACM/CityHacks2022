@@ -1,14 +1,10 @@
 body{
-  font-family: 'Roboto', sans-serif;
-  color: #003049;
+  font-family: Inter,sans-serif;
+    letter-spacing: -.035em;
+    color: #000;
 }
 
-h1{
-  opacity: 0.9;
-  font-size: 2.5em;
-  font-weight: bold;
-  color: #003049;
-}
+
 
 h2{
   opacity: 0.9;
@@ -18,23 +14,24 @@ h2{
 }
 
 a:link {
-  color: #003049;
+  color: #edfafd;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #003049;
+  color: #edfafd
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color:#edfafd;
 }
 
 a:active {
-  color: #003049;
+  color: #edfafd;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -42,31 +39,20 @@ a:active {
 .card{
   border-radius: 7px;
 background: #ffffff;
-box-shadow:  -9px 9px 38px #e0e0e0,
-             9px -9px 38px #ffffff;
+box-shadow:  -6px -6px 12px #eeedee,
+             6px 6px 12px #f8f7f8;
 }
 
 .btn{
- width:90%;
+ width:30%;
  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:  7px -7px 33px #e0e0e0,
-             -7px 7px 33px #eeeeee;
+  color:#edfafd;
 }
 
 #FAQS
 {
   display:flex;
   justify-content: center;
-}
-
-.btn:hover{
-  background-color: #dbf5fa;
-  border:solid 1px #dbf5fa;
-  border-radius: 20px;
-  background: #dbf5fa;
-  box-shadow:  9px 9px 27px #a8a8a8,
-              -9px -9px 27px #ffffff;
 }
 
 .resources-main-container{
@@ -100,4 +86,21 @@ box-shadow:  -9px 9px 38px #e0e0e0,
     
    opacity:0;
    display:none;
+ }
+}
+
+ #registration-div{
+    font-family: Inter,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    padding-top: 60px;
+    letter-spacing: -.035em;
+    color: #000;
+    background: #f3f2f3;
+    border-radius: 0px;
+background: #edfafd;
+box-shadow:  -6px -6px 12px #eeedee,
+             6px 6px 12px #f8f7f8;
+    
  }
