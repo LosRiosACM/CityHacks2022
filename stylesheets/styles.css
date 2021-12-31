@@ -95,4 +95,5 @@ box-shadow:  -9px 9px 38px #e0e0e0,
 @media (max-width: 576px) { 
   #mlh-trust-badge{
    opacity:0;
+   display:none;
  }
