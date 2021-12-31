@@ -1,16 +1,30 @@
 body{
   font-family: 'Roboto', sans-serif;
-  color: #243763;;
+  color: #003049;
+}
+
+h1{
+  opacity: 0.9;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #003049;
+}
+
+h2{
+  opacity: 0.9;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #003049;
 }
 
 a:link {
-  color: grey;
+  color: #003049;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: grey ;
+  color: #003049;
   background-color: transparent;
   text-decoration: none;
 }
@@ -20,36 +34,36 @@ a:hover {
 }
 
 a:active {
-  color: rgba(125,193,235,255);
+  color: #003049;
   background-color: transparent;
   text-decoration: underline;
 }
 
 .card{
-  border-radius: 5px;
-  background: #ffffff;
-  box-shadow:  9px 9px 27px #a8a8a8,
-              -9px -9px 27px #ffffff;
+  border-radius: 7px;
+background: #ffffff;
+box-shadow:  -9px 9px 38px #e0e0e0,
+             9px -9px 38px #ffffff;
 }
 
 .btn{
- border-radius: 3px;
-  background: #ffffff;
+ border-radius: 5px;
+  background: #eeeeee;
   box-shadow:  7px -7px 33px #e0e0e0,
-             -7px 7px 33px #ffffff;
+             -7px 7px 33px #eeeeee;
 }
 
 #FAQS
 {
   display:flex;
   justify-content: center;
-  
 }
 
 .btn:hover{
-  border:solid 1px #ABC4FF;
-  border-radius: 5px;
-  background: #ffffff;
+  background-color: #dbf5fa;
+  border:solid 1px #dbf5fa;
+  border-radius: 20px;
+  background: #dbf5fa;
   box-shadow:  9px 9px 27px #a8a8a8,
               -9px -9px 27px #ffffff;
 }
@@ -77,3 +91,8 @@ a:active {
   margin-bottom: 20px;
   text-align: center;
 }
+
+@media (max-width: 576px) { 
+  #mlh-trust-badge{
+   opacity:0;
+ }
