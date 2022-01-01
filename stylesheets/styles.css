@@ -4,43 +4,9 @@ body{
     color: #000;
 }
 
-
-
-h2{
-  opacity: 0.9;
-  font-size: 2.5em;
-  font-weight: bold;
-  color: #003049;
-}
-
-a:link {
-  color: #edfafd;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #edfafd
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color:#edfafd;
-}
-
-a:active {
-  color: #edfafd;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
 .card{
   border-radius: 7px;
 background: #ffffff;
-box-shadow:  -6px -6px 12px #eeedee,
-             6px 6px 12px #f8f7f8;
 }
 
 .btn{
@@ -97,10 +63,11 @@ box-shadow:  -6px -6px 12px #eeedee,
     padding-top: 60px;
     letter-spacing: -.035em;
     color: #000;
-    background: #f3f2f3;
     border-radius: 0px;
-background: #edfafd;
-box-shadow:  -6px -6px 12px #eeedee,
-             6px 6px 12px #f8f7f8;
-    
+    background: #edfafd;
+ }
+
+ p{
+   font-size: 20px;
+   
  }
