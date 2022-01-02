@@ -17,12 +17,6 @@ The cool accordion and navbar that you see are made with Bootstrap5.
     Contact/Connect with me for some questions/guidance/networking <a href="https://www.linkedin.com/in/ishanmeher/">(My Linkedin which won't change-I hope)</a>
 </h2>
 
-<h2>Those weird card things lool really hard to code how did you make it?</h2>
-<p>
-  The nice looking cards (rounded divs with a drop shadow) are designed using this CSS generator:
-  <a href="https://neumorphism.io/#d9dcde">https://neumorphism.io/#d9dcde</a>
-</p>
-
 
 <h2>How do you Redirect to a certain div of a page?</h2>
 <p>
