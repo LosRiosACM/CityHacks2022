@@ -71,3 +71,14 @@ background: #ffffff;
    font-size: 20px;
    
  }
+
+ .blue-resource-container{
+   letter-spacing: -.035em;
+    color: #000;
+    border-radius: 0px;
+    background: #edfafd;
+ }
+
+ li{
+    font-size: 20px;
+  }
